@@ -29,7 +29,7 @@ a {
 
 /* Main CSS */
 
-#content-wrap div, #top-bar, ul {
+.section, #top-bar, #footer, ul {
   display: flex;
 }
 
@@ -49,6 +49,10 @@ a {
 
 #section-two, #section-three {
   color: var(--navy);
+}
+
+#section-two {
+  flex-direction: column;
 }
 
 #section-three {
