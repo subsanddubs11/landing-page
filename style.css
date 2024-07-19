@@ -104,6 +104,11 @@ a {
 
 #section-one div {
   margin-left: 4rem;
+  width: 30%;
+}
+
+#section-one div * {
+  margin-bottom: 10px;
 }
 
 #section-one button {
