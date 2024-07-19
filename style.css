@@ -65,6 +65,7 @@ button:hover {
   background-color: var(--white);
   color: var(--blue);
 }
+
 /* Header */ 
 
 ul {
@@ -100,20 +101,31 @@ a {
 /* Section 1 */
 
 #section-one {
-  padding: 6rem;
+  padding: 4rem;
+  align-items: center;
+  justify-content: space-between;
 }
 
-#section-one div {
-  margin-left: 4rem;
+#one-text-wrap {
   width: 30%;
 }
 
-#section-one div * {
-  margin-bottom: 10px;
+#one-text-wrap * {
+  margin-bottom: 0.2vh;
 }
 
 #section-one button {
   margin-top: 1vh;
+}
+
+#img-wrap {
+  display: flex;
+  height: 40vh;
+  width: 20%;
+}
+
+#img-wrap img {
+  height: 100%;
 }
 
 /* Section 2 */
