@@ -62,8 +62,9 @@ button {
 
 button:hover {
   cursor: pointer;
+  background-color: var(--white);
+  color: var(--blue);
 }
-
 /* Header */ 
 
 ul {
@@ -99,7 +100,7 @@ a {
 /* Section 1 */
 
 #section-one {
-  padding: 6rem 0;
+  padding: 6rem;
 }
 
 #section-one div {
@@ -150,7 +151,7 @@ figcaption {
 
 #section-three {
   justify-content: center;
-  padding: 7vh 0;
+  padding: 7vh;
 }
 
 #quote-wrap {
@@ -172,9 +173,15 @@ blockquote {
 /* Section 4 */
 
 #section-four {
-  width: 80%;
+  width: 40%;
   align-items: center;
-  margin: auto;
+  margin: 10vh auto;
+  justify-content: space-evenly;
+  padding: 4vh;
+}
+
+#section-four button {
+  border: 2px solid var(--white)
 }
 
 /* Footer */
