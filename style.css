@@ -119,6 +119,12 @@ a {
   justify-content: center;
 }
 
+figcaption {
+  color: var(--blue);
+}
+
+/* Footer */
+
 #footer {
   position: absolute;
   bottom: 0;
