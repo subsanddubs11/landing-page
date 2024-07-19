@@ -48,7 +48,7 @@
   background-color: var(--off-white);
 }
 
-#sign-up-msg, button {
+#section-four, button {
   background-color: var(--blue);
   color: white;
 }
@@ -169,8 +169,12 @@ blockquote {
   text-align: right;
 }
 
+/* Section 4 */
+
 #section-four {
-  justify-content: center;
+  width: 80%;
+  align-items: center;
+  margin: auto;
 }
 
 /* Footer */
