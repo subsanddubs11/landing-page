@@ -25,7 +25,7 @@
 
 /* Main CSS */
 
-/* Set-Up */
+/* General */
 
 .section, #top-bar, #footer, ul {
   display: flex;
@@ -47,6 +47,17 @@
 #sign-up-msg, button {
   background-color: var(--blue);
   color: white;
+}
+
+button {
+  border: none;
+  border-radius: 5px;
+  padding: 0.4em 0.5em;
+  width: 12.5vw;
+}
+
+button:hover {
+  cursor: pointer;
 }
 
 /* Header */ 
@@ -84,11 +95,15 @@ a {
 /* Section 1 */
 
 #section-one {
-  padding-top: 6rem;
+  padding: 6rem 0 6rem;
 }
 
 #section-one div {
   margin-left: 4rem;
+}
+
+#section-one button {
+  margin-top: 1vh;
 }
 
 /* Section 2 */
@@ -125,7 +140,7 @@ p, ul, .roboto-light {
   font-style: normal;
 }
 
-.roboto-medium {
+button, .roboto-medium {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-style: normal;
