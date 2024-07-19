@@ -40,6 +40,10 @@
   color: var(--navy);
 }
 
+#section-two h2, #section-three blockquote {
+  font-size: 36px;
+}
+
 #section-three {
   background-color: var(--off-white);
 }
@@ -53,7 +57,7 @@ button {
   border: none;
   border-radius: 5px;
   padding: 0.4em 0.5em;
-  width: 12.5vw;
+  width: 6vw;
 }
 
 button:hover {
@@ -95,7 +99,7 @@ a {
 /* Section 1 */
 
 #section-one {
-  padding: 6rem 0 6rem;
+  padding: 6rem 0;
 }
 
 #section-one div {
@@ -135,6 +139,29 @@ figcaption {
   color: var(--blue);
   display: table-caption;
   caption-side: bottom;
+}
+
+/* Section 3 */
+
+#section-three {
+  justify-content: center;
+  padding: 7vh 0;
+}
+
+#quote-wrap {
+  line-height: 5vh;
+}
+
+#quote-wrap {
+  width: 40%;
+}
+
+blockquote {
+  line-height: 7vh;
+}
+
+#quote-wrap p {
+  text-align: right;
 }
 
 /* Footer */
