@@ -25,9 +25,31 @@
 
 /* Main CSS */
 
+/* Set-Up */
+
 .section, #top-bar, #footer, ul {
   display: flex;
 }
+
+#top-bar, #section-one, #footer {
+  background-color: var(--navy);
+  color: var(--white);
+}
+
+#section-two, #section-three {
+  color: var(--navy);
+}
+
+#section-three {
+  background-color: var(--off-white);
+}
+
+#sign-up-msg, button {
+  background-color: var(--blue);
+  color: white;
+}
+
+/* Header */ 
 
 ul {
   list-style-type: none;
@@ -54,31 +76,25 @@ a {
   align-items: center;
 }
 
-#hero-txt {
+#hero-logo {
   font-size: 24px;
   margin-left: 4rem;
 }
 
-#top-bar, #section-one, #footer {
-  background-color: var(--navy);
-  color: var(--white);
+/* Section 1 */
+
+#section-one {
+  padding-top: 6rem;
 }
 
-#section-two, #section-three {
-  color: var(--navy);
+#section-one div {
+  margin-left: 4rem;
 }
+
+/* Section 2 */
 
 #section-two {
   flex-direction: column;
-}
-
-#section-three {
-  background-color: var(--off-white);
-}
-
-#sign-up-msg, button {
-  background-color: var(--blue);
-  color: white;
 }
 
 #footer {
@@ -97,13 +113,13 @@ a {
   font-style: normal;
 }
 
-.roboto-light {
+p, ul, .roboto-light {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-style: normal;
 }
 
-p, ul, .roboto-regular {
+.roboto-regular {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
