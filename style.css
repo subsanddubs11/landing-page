@@ -14,17 +14,13 @@
   --blue: #3882F6;
 }
 
-ul {
-  list-style-type: none;
+#page-container {
+  position: relative;
+  min-height: 100vh;
 }
 
-li {
-  display: inline;
-}
-
-a {
-  text-decoration: none;
-  color: var(--white);
+#content-wrap {
+  padding-bottom: 2.5rem;
 }
 
 /* Main CSS */
@@ -33,13 +29,34 @@ a {
   display: flex;
 }
 
-#page-container {
-  position: relative;
-  min-height: 100vh;
+ul {
+  list-style-type: none;
+  gap: 1rem;
+  margin-right: 4rem;
 }
 
-#content-wrap {
-  padding-bottom: 2.5rem;
+li {
+  display: inline;
+}
+
+a:hover {
+  color: var(--blue);
+}
+
+a {
+  text-decoration: none;
+  color: var(--white);
+}
+
+#top-bar {
+  justify-content: space-between;
+  padding-top: 2vh;
+  align-items: center;
+}
+
+#hero-txt {
+  font-size: 24px;
+  margin-left: 4rem;
 }
 
 #top-bar, #section-one, #footer {
