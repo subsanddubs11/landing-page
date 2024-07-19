@@ -169,6 +169,10 @@ blockquote {
   text-align: right;
 }
 
+#section-four {
+  justify-content: center;
+}
+
 /* Footer */
 
 #footer {
