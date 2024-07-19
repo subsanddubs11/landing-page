@@ -20,14 +20,14 @@
 }
 
 #content-wrap {
-  padding-bottom: 2.5rem;
+  padding-bottom: 3.5rem;
 }
 
 /* Main CSS */
 
 /* General */
 
-.section, #top-bar, #footer, ul {
+.section, #fig-wrapper, #top-bar, #footer, ul {
   display: flex;
 }
 
@@ -110,14 +110,23 @@ a {
 
 #section-two {
   flex-direction: column;
+  text-align: center;
+  padding: 2rem 0 6rem;
+}
+
+#fig-wrapper {
+  flex-direction: row;
+  justify-content: center;
 }
 
 #footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 2.5rem;
+  height: 3.5rem;
   color: var(--off-white);
+  align-items: center;
+  justify-content: center;
 }
 
 /* Font Classes */
