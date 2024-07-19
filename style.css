@@ -111,16 +111,30 @@ a {
 #section-two {
   flex-direction: column;
   text-align: center;
-  padding: 2rem 0 6rem;
+  padding: 2rem 0 5rem;
 }
 
 #fig-wrapper {
   flex-direction: row;
   justify-content: center;
+  gap: 4vw;
+  margin-top: 3rem;
+}
+
+figure {
+  display: table;
+}
+
+figure img {
+  width: 18vw;
+  height: 25vh;
+  object-fit: cover;
 }
 
 figcaption {
   color: var(--blue);
+  display: table-caption;
+  caption-side: bottom;
 }
 
 /* Footer */
